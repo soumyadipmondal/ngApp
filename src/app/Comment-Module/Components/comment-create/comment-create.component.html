@@ -1,0 +1,29 @@
+<!-- <section id="add-comment">
+    <div class="container">
+        <h1 class="post-comment-header">{{headerTxt}}</h1>
+        <div class="comment-section">
+            <mat-card>
+
+            
+            <form class="example-form">
+                <mat-form-field class="example-full-width">
+                    <mat-label>Comment Title</mat-label>
+                    <textarea [(ngModel)] = "titleTxt" name="titleTxt" id="write-title" class="comment"matInput placeholder="Ex. 100 Main St"></textarea>
+                </mat-form-field>
+                <mat-form-field class="example-full-width">
+                    <mat-label>Comment Box</mat-label>
+                    <textarea [(ngModel)] = "commentTxt" name="commentTxt" id="write-comment" class="comment" matInput></textarea>
+                </mat-form-field> 
+                <div class="example-button-row">
+                    <button mat-flat-button color="primary" type="button" (click)="onSubmit()">Submit</button>
+                </div>
+            </form>  
+        </mat-card>
+        </div>
+    </div>
+</section> -->
+
+<div class="form-group p-3">
+    <label for="post" class="p-3" >{{headerTxt}}</label>
+    <input (keyup.enter)="onSubmit(post)" id="post" type="text"  [(ngModel)]='post' name="post" class="form-control p-3 ml-3 mt-2">
+</div>

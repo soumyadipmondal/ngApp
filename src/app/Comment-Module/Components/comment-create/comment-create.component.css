@@ -1,0 +1,42 @@
+section#add-comment{
+    max-width: 1100px;
+    margin: auto 20px;
+    padding: 50px;
+    overflow: auto;
+}
+
+section#add-comment div.container{
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+.example-full-width {
+    width: 100%;
+    border-bottom: 1px solid #333;
+}
+
+.example-button-row {
+    display: block;
+    width: 490px;
+    margin-top: 50px;
+}
+
+.form-group{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.form-group label{
+    color: #333;
+}
+.form-group input{
+    width: 50%;
+}
+  

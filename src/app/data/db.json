@@ -1,0 +1,14 @@
+{
+    "creds" : [
+        {
+            "email" : "t@t.com",
+            "password" : "123456789"
+
+        },
+        {
+            "email" : "soumyadip.mondal1@gmail.com",
+            "password" : "123456789"
+
+        }
+    ]    
+}

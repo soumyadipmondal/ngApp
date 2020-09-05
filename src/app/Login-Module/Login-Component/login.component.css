@@ -1,0 +1,25 @@
+.container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px auto;
+    background-color: #ffffff;
+    width: 400px;
+    padding: 20px 40px;
+    height: auto;
+}
+
+.error{
+    font-weight: 600;
+    color: #ff0000;
+}
+
+.errorInput{
+    border: 2px solid #ff0000;
+}
+
+.hidden{
+    display: none;
+}
+
+.show{
+    display: block;
+}

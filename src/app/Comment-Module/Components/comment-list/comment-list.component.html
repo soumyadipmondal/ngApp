@@ -1,0 +1,22 @@
+<app-comment-header [isActive] = "isActivated"></app-comment-header>
+<div class="container">
+    <app-comment-create (mycomment) = "newComment($event)"></app-comment-create>
+    <ul class="list-group">
+        <li class="list-group-item" 
+        *ngFor="let post of posts; let i=index;">
+        <div class="post-wrapper" *ngIf="!post.isEdit">
+            <a [routerLink]= "['/comment/commentdetails', post.id]" [state]="{data: {isActivated:true}}" [queryParams]="{userCreated: post.userId}" class="d-block">
+                {{post.title}}
+            </a>
+            <button class="btn btn-primary btn-sm" 
+            (click)="makeEditable(post)">
+                Update
+            </button>
+        </div>
+        <div *ngIf="post.isEdit" class="form-group">
+            <input type="text" class="form-control" [(ngModel)]="editComment" name="editComment">
+            <button class="btn btn-danger btn-sm" (click)="updatePost(editComment, i)">Save</button>
+        </div>
+        </li>
+    </ul>
+</div>

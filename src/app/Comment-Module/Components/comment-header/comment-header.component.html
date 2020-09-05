@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light" *ngIf="isActive">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <!-- <div class="navbar-nav" *ngIf="!isLoggedIn">
+        <a class="nav-item nav-link" routerLinkActive="active"  routerLink= "/login">Login <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" routerLinkActive="active" routerLink="/comment">Post-List</a>
+      </div> -->
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" routerLinkActive="active"  routerLink= "/login">Logout</a>
+        <span>{{Welcome}}</span>
+        <!-- <a class="nav-item nav-link" routerLinkActive="active" routerLink="/comment">Post-List</a> -->
+      </div>
+    </div>
+  </nav>

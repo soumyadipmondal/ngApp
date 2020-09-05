@@ -1,0 +1,12 @@
+.container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px auto;
+    background-color: #ffffff;
+    width: 400px;
+    padding: 20px 40px;
+    height: auto;
+}
+
+.highlight{
+    text-decoration: underline;
+}

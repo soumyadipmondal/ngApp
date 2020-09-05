@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html, body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.7em;
+    background-color: #333;
+}
+
+h1, h2, h3, 
+h4, h5, h6 {
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333
+}
+
+p{
+    margin: 10px 0;
+}
+

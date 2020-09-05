@@ -1,0 +1,10 @@
+<app-comment-header [isActive] = "isActivated"></app-comment-header>
+
+<div class="container">
+    <div *ngIf="individualPost"class="jumbotron">
+        <h1>{{individualPost.title}}</h1>
+        <div class="comment" [innerHtml]="individualPost.body"></div>
+        
+        <div class="highlight">Created By: {{userCreated}}</div>
+    </div>
+</div>
